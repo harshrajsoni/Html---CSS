@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Document
+        </title>
+    </head>
+    <body>
+        <h1>
+            This is a student Registration
+            Form Project Using simply HTML.
+        </h1>
+        
+        <hr>
+
+        <br>
+        <br>
+
+        <h3>
+            Student Registration Form
+        </h3>
+        <p>
+            Please fill out the form below 
+            to register.
+        </p>
+
+        <hr>
+
+        <main>
+            <form action="/Submit" method="post">
+                <!-- Personal Information -->
+                <section>
+                    <!-- Remember this field set and legend-->
+                    <fieldset>
+                        <legend> Personal Information </legend>
+                        <label for="FirstName">First Name:</label>
+                        <input type="text" id="FirstName" 
+                        name="FirstName" required>
+                        
+                        <br>
+                        <br>
+
+                        <label for="LastName"> Last Name:</label>
+                        <input type="text" id="LastName" 
+                        name="LastName" required>
+
+                        <br>
+                        <br>
+
+                        <label for="dob">Date of Birth</label>
+                        <!-- Remember this date type -->
+                        <input type="date" id="dob" name="dob" required>
+
+                        <br>
+                        <br>
+
+                        <label for="Gender"> Gender: </label>
+                        <input type="radio" id="Male" name="Gender" 
+                        value="Male">
+                        <label for="Male"> Male </label>
+                        <input type="radio" id="Female" name="Gender" 
+                        value="Female">
+                        <label for="Female"> Female </label>
+                        <input type="radio" id="Other" name="Gender" 
+                        value="Other">
+                        <label for="Other"> Other </label>
+
+                        <br>
+                        <br>
+
+                        <label for="Email">Email:</label>
+                        <input type="email" id="Email" name="Email" required>
+
+                        <br>
+                        <br>
+
+                        <label for="Phone">Phone:</label>
+                        <input type="text" id="Phone" name="Phone" required>
+                        <br>
+                        <br>
+                    </fieldset>
+                </section>
+
+                <hr>
+
+                <!-- Address Information -->
+                <section>
+                    <fieldset>
+                        <legend>Address Information</legend>
+                        <label for="Address"> Address: </label>
+
+                        <br>
+
+                        <!-- Remember this text area -->
+                        <textarea id="Address" name="Address" rows="5" cols="50"></textarea>
+
+                        <br>
+                        <br>
+
+                        <label for="City">City:</label>
+                        <input type="text" name="City" id="City" required>
+
+                        <br>
+                        <br>
+
+                        <label for="State">State:</label>
+                        <input type="text" name="State" id="State" required>
+
+                        <br>
+                        <br>
+
+                        <label for="Zip Code">Zip Code:</label>
+                        <input type="number" name="Zip Code" id="Zip Code" required>
+                        <br>
+                        <br>
+                    </fieldset>
+                </section>
+
+                <hr>
+
+                <!-- Educational Information -->
+                <section>
+                    <fieldset>
+                        <legend>Educational Information</legend>
+                        <label for="HighSchool">High School:</label>
+                        <input type="text" name="HighSchool" id="HighSchool">
+                        <br>
+                        <br>
+                        <label for="GPA">GPA:</label>
+                        <input type="text" name="GPA" id="GPA">
+                        <br>
+                        <br>
+                        <label for="IntendedMajor">Intended Major:</label>
+                        <input type="text" name="IntendedMajor" 
+                        id="IntendedMajor">
+                        <br>
+                        <br>
+                        <label for="YearOfGrad">Year Of Graduation:</label>
+                        <input type="text" name="YearOfGrad" 
+                        id="YearOfGrad">
+                        <br>
+                        <br>
+                    </fieldset>
+                </section>
+
+                <hr>
+
+                <!-- Additional Information -->
+                <section>
+                    <fieldset>
+                        <legend> Additional Information </legend>
+                        <label for="InterestAndHobbies">
+                            Interest and Hobbies: 
+                        </label>
+
+                        <br>
+
+                        <textarea name="InterestAndHobbies" 
+                        id="InterestAndHobbies"
+                        rows="5" cols="70"></textarea>
+
+                        <br>
+                        <br>
+
+                        <label for="AdditionalComments">
+                            Additional Comments: 
+                        </label>
+
+                        <br>
+
+                        <textarea name="AdditionalComments" 
+                        id="AdditionalComments"
+                        rows="5" cols="70"></textarea>
+                        <br>
+                        <br>
+                    </fieldset>
+                </section>
+
+                <hr>
+
+                <!-- Submit Button -->
+                <!-- Remember this submit button -->
+                <button type="submit">Register</button>
+                <hr>
+            </form>
+        </main>
+
+        <!-- Last Part -->
+        <footer>
+            <p>
+                © 2024 Student Registration. All rights reserved.
+            </p>
+        </footer>
+    </body>
+</html>
